@@ -1,0 +1,86 @@
+.main
+{
+    background-image: url("../assets/p3.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.book
+{
+    transition: 0.2s;
+    animation: ease-in-out;
+}
+.book:hover
+{
+    background-color: white;
+    animation: ease-in-out;
+    transition: 0.2s;
+    width: 25%;
+}
+.book:hover button
+{
+    color: black;
+}
+
+.hcspa
+{
+    background-image: url("../assets//hc+spa.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.rbkr
+{
+    background-image: url("../assets//rb+kr.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.bbhc
+{
+    background-image: url("../assets//bb+hc.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.hc
+{
+    background-image: url("../assets//hc.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.b
+{
+    background-image: url("../assets//b.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.pct
+{
+    background-image: url("../assets//pc+t.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.rs
+{
+    background-image: url("../assets//r+s.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.rct
+{
+    background-image: url("../assets//r+c+t.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.h
+{
+    background-image: url("../assets//h.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+.items::-webkit-scrollbar {
+    display: none;
+}
+

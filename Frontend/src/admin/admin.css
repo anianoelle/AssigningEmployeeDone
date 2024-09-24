@@ -1,0 +1,51 @@
+.tabs {
+    padding: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+    width: 100%;
+    border-radius: 5px;
+}
+.tabs:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.active-tabs {
+    font-weight: bold;
+    color: white; /* Change color for active tab */
+    background: rgb(195, 158, 255); /* Darker background for active tab */
+}
+.content {
+    display: none;
+    background: red;
+    height: 100%;
+    width: 80%;
+}
+.active-content {
+    display: block; /* Show active content */
+    background: green;
+
+}
+.active-tabs::before {
+    display: block;
+    content: "";
+}
+
+.pie {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background-color: white;
+    align-items: center;
+    flex-direction: row;
+}
+
+.recharts-legend-wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
